@@ -6,7 +6,15 @@ Basic kind configurations for generic local testing with multi-node clusters
 * nodeport
 * ingress
 
+# Launch
 
+Create your cluster:
+```bash
+kind create cluster --config=<>.config
+```
+Apply your configurations
+
+Have fun ..
 
 # Ingress
 
