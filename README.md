@@ -8,9 +8,9 @@ Basic kind configurations for generic local testing with multi-node clusters
 
 # Launch
 
-Create your cluster:
+Create your cluster specifying node image kubernetes version:
 ```bash
-kind create cluster --config=<>.config
+kind create cluster --config=<>.config --image kindest/node:v1.20.0
 ```
 Apply your configurations
 
